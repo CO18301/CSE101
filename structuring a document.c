@@ -1,4 +1,4 @@
-oid add_word(struct sentence *sen, char *data) {
+void add_word(struct sentence *sen, char *data) {
     struct word *word = malloc(sizeof(struct word));
     word->data = data;
 
